@@ -1,3 +1,5 @@
 .vscode/ 
 *.ignore.* 
 .env.* 
+node_modules/
+lib/

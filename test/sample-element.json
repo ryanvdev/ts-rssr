@@ -1,0 +1,105 @@
+{
+    "name": "html",
+    "attributes": {
+        "lang": "en"
+    },
+    "children": [
+        {
+            "name": "head",
+            "attributes": {},
+            "children": [
+                {
+                    "name": "meta",
+                    "attributes": {
+                        "charSet": "UTF-8"
+                    },
+                    "children": []
+                },
+                {
+                    "name": "meta",
+                    "attributes": {
+                        "http-equiv": "X-UA-Compatible",
+                        "content": "IE=edge"
+                    },
+                    "children": []
+                },
+                {
+                    "name": "meta",
+                    "attributes": {
+                        "name": "viewport",
+                        "content": "width=device-width, initial-scale=1.0"
+                    },
+                    "children": []
+                },
+                {
+                    "name": "title",
+                    "attributes": {},
+                    "children": [
+                        "Home"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "body",
+            "attributes": {},
+            "children": [
+                {
+                    "name": "h1",
+                    "attributes": {},
+                    "children": [
+                        "Home Page"
+                    ]
+                },
+                {
+                    "name": "ul",
+                    "attributes": {},
+                    "children": [
+                        [
+                            {
+                                "name": "li",
+                                "attributes": {},
+                                "children": [
+                                    "Item ",
+                                    0
+                                ]
+                            },
+                            {
+                                "name": "li",
+                                "attributes": {},
+                                "children": [
+                                    "Item ",
+                                    1
+                                ]
+                            },
+                            {
+                                "name": "li",
+                                "attributes": {},
+                                "children": [
+                                    "Item ",
+                                    2
+                                ]
+                            },
+                            {
+                                "name": "li",
+                                "attributes": {},
+                                "children": [
+                                    "Item ",
+                                    3
+                                ]
+                            },
+                            {
+                                "name": "li",
+                                "attributes": {},
+                                "children": [
+                                    "Item ",
+                                    4
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}
