@@ -1,12 +1,15 @@
 {
   "name": "ts-rssr",
-  "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "./lib"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rmdir /S /Q lib & tsc",
+    "prepare": "npm run build",
+    "test": "nodemon test/index.ts"
   },
   "repository": {
     "type": "git",
@@ -14,7 +17,7 @@
   },
   "keywords": [],
   "author": "Tuan Nguyen",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "strkits": "^1.0.0"
